@@ -142,7 +142,7 @@ gtf_annotation="/data/guang/Reference_Genome/mouse_genome/Mus_musculus.GRCm38.97
 ## global variables will make each part still a complete script and can be copied
 ## out to run independently.
 ## Re-define of the global variables to make  this part independent.
-## top_level_folder="/data/guang/Wang_bulkRNASeq"
+## top_level_folder="/data/guang/Guang_bulkRNASeq"
 ## Initialize the top_level folder. Must use full path!!
 ## This folder should contain the sample folders with single-end fatq.gz files.
 ## This folder will be used by all script pieces below.
