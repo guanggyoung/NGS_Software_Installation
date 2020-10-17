@@ -113,7 +113,7 @@
 ##
 # Folder contains all folders of samples
 # Use full path.
-top_level_folder="/data/guang/Wang_bulkRNASeq"
+top_level_folder="/data/guang/Guang_bulkRNASeq"
 
 ######### Parameters related to Trimmomatic ##########
 # How to run Trimmomatic (inlcude path of Trimmomatic)
@@ -162,7 +162,7 @@ sample_folder_names="$(ls -l | grep "^d" | awk '{print $NF}')"
 ############# Part 1.1 Check fastq data quality using FastQC ##########################
 
 ## Re-define of the global variables to make Part1.1 independent script.
-## top_level_folder="/data/guang/Wang_bulkRNASeq"
+## top_level_folder="/data/guang/Guang_bulkRNASeq"
 ## Initialize the top_level folder. Must use full path!!
 ## This folder should contain the sample folders with fatq.gz files of each library.
 cd $top_level_folder
@@ -202,7 +202,7 @@ done
 
 
 ## Re-define of the global variables to make Part1.2 independent script.
-## top_level_folder="/data/guang/Wang_bulkRNASeq"
+## top_level_folder="/data/guang/Guang_bulkRNASeq"
 ## Initialize the top_level folder. Must use full path!!
 ## This folder should contain the sample folders with single-end fatq.gz files.
 cd $top_level_folder
@@ -251,7 +251,7 @@ rm -r $top_level_folder/merged_fastqc_results_using_multiqc
 ###############################################################################
 
 ## Re-define of the global variables to make Part1.3 independent script.
-## top_level_folder="/data/guang/Wang_bulkRNASeq"
+## top_level_folder="/data/guang/Guang_bulkRNASeq"
 ## Initialize the top_level folder. Must use full path!!
 ## This folder should contain the sample folders with single-end fatq.gz files.
 cd $top_level_folder
@@ -358,7 +358,7 @@ done
 
 
 ## Re-define of the global variables to make Part2.1 independent script.
-## top_level_folder="/data/guang/Wang_bulkRNASeq"
+## top_level_folder="/data/guang/Guang_bulkRNASeq"
 ## Initialize the top_level folder. Must use full path!!
 ## This folder should contain the sample folders with single-end fatq.gz files.
 cd $top_level_folder
@@ -456,7 +456,7 @@ done
 ##****************************Part2 Finished here *******************************##
 ## All code above tested OK for single-end reads 20190423 
 ## with 
-## top_level_folder="/data/guang/Wang_bulkRNASeq"
+## top_level_folder="/data/guang/Guang_bulkRNASeq"
 ## This file contain the first 10k reads of each fastq.gz file.
 
 
@@ -480,7 +480,7 @@ done
 ##******** Part 3.1 Using StringTie to get gen expression table from .bam and .gtf files **********##
 
 ## Re-define of the global variables to make Part3.1 independent script.
-## top_level_folder="/data/guang/Wang_bulkRNASeq"
+## top_level_folder="/data/guang/Guang_bulkRNASeq"
 ## Initialize the top_level folder. Must use full path!!
 ## This folder should contain the sample folders with single-end fatq.gz files.
 cd $top_level_folder
@@ -519,7 +519,7 @@ done
 ##******************************************************************************************##
 
 ## Re-define of the global variables to make Part3.2 independent script.
-## top_level_folder="/data/guang/Wang_bulkRNASeq"
+## top_level_folder="/data/guang/Guang_bulkRNASeq"
 ## Initialize the top_level folder. Must use full path!!
 ## This folder should contain the sample folders with single-end fatq.gz files.
 cd $top_level_folder
