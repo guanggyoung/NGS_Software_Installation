@@ -72,7 +72,7 @@ set -e
 ## All the path of the programs must already write in ~/.bashrc file so that they
 ## can be called from anywhere(outside the installation folder).
 ## The programs installed are(check with "ls -al" command :
-## yang@DK50R3126PC1:~$ ls -al ./bio_softwares
+## yang@PC1:~$ ls -al ./bio_softwares
 ## total 29496
 ## drwxrwxrwx 1 yang yang     4096 Apr 18 13:33 .
 ## drwxr-xr-x 1 yang yang     4096 Apr 19 13:14 ..
